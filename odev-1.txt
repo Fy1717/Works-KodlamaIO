@@ -1,0 +1,32 @@
+1- Python'da Veri Tiplerini araştırınız, her bir veri tipi için kendi cümlelerinizle açıklamalar yazınız.
+--------------------------------------------------------
+
+Integer: Tam sayıları temsil eder –> 5, 25, -12.. 
+Float: Ondalıklı sayıları temsil eder –> 5.2, 2.333, 0.1
+String: Metinsel ifadeleri temsil eder -> "Furkan"
+List: İçerisinde birden fazla veriyi indexler ile tutabilen yapıdır, köşeli parantez kullanılır -> ["Furkan", 26, "CE"]
+
+
+2- Kodlama.io sitesinde değişken olarak kullanıldığını düşündüğünüz verileri, veri tipleriyle birlikte örneklendiriniz.
+-------------------------------------------------------- 
+
+* Akıştaki yüzdelik kısmı hem integer hem de string veri tipinde kullanılmış (Integer + String)
+* Gün ve tarihler integer veri tipinde kullanılmış
+* Eğitim içeriği (section list) list veri tipinde kullanılmış olabilir
+* Geri kalan yazılar için String veri tipi kullanılmıştır
+
+
+3- Kodlama.io sitesinde şart blokları kullanıldığını düşündüğünüz kısımları örneklendiriniz ve Python dilinde bu örnekleri koda dökünüz.
+--------------------------------------------------------
+
+* Program ve ödevlere tıklandığında veya içerik girildiğinde temsili image güncelleniyor.
+
+if clickedPart:
+    updateUiImage()
+
+if percentOfEdu == 100:
+    uiUpdate()
+    openNextStep()
+
+* Her ödev alanının altında yorum varsa ui alanı güncellenir ve tüm yorumlar listelenir
+
